@@ -329,13 +329,34 @@ button,
   background-color: #1e40af;
 }
 
-footer {
-  margin-top: 16px;
-  border-top: 1px solid #dbe5ec;
-  padding-top: 12px;
-  color: #5b7282;
-  font-size: 0.9rem;
+.disclaimer {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #666;
   text-align: center;
+}
+
+.site-footer {
+  margin-top: 40px;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid #dbe5ec;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer a {
+  color: #2563eb;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 800px) {
