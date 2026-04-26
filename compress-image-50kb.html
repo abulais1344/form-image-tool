@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compress Image to 50KB Online for Govt Forms India</title>
+  <meta name="description" content="Compress image to 50kb online for SSC, UPSC, PAN and other govt forms in India. Fast and secure browser tool with before-after preview." />
+  <meta name="keywords" content="compress image to 50kb, SSC form image size, photo for govt form india" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-default-kb="50">
+  <div class="site-wrap">
+    <div class="ad-space">Ad Space Top Banner</div>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Main menu">
+        <a href="index.html">Home</a>
+        <a class="active" href="compress-image-50kb.html">Compress 50KB</a>
+        <a href="compress-image-100kb.html">Compress 100KB</a>
+        <a href="resize-signature-20kb.html">Signature 20KB</a>
+      </nav>
+    </header>
+
+    <main class="card">
+      <h1>Compress Image to 50KB</h1>
+      <p class="subtitle">Perfect for SSC, railway, and many government forms that accept profile photo around 50KB.</p>
+
+      <h2 class="h2">Upload Photo and Compress to 50KB</h2>
+      <section id="dropZone" class="upload-drop" aria-label="Upload image area">
+        <input id="fileInput" type="file" accept="image/jpeg,image/png" />
+        <p class="upload-hint">Drag and drop image or click to choose JPG/PNG</p>
+      </section>
+
+      <section class="recommend" aria-label="Recommended image sizes">
+        <strong>Recommended sizes:</strong>
+        SSC: 50KB | Signature: 20KB
+      </section>
+
+      <section class="presets" aria-label="Size presets">
+        <button class="preset-btn" data-kb="20" type="button">20KB (Signature)</button>
+        <button class="preset-btn" data-kb="50" type="button">50KB</button>
+        <button class="preset-btn" data-kb="100" type="button">100KB</button>
+      </section>
+
+      <section class="controls">
+        <div class="field">
+          <label for="targetKb">Target Size (KB)</label>
+          <input id="targetKb" type="number" min="1" step="1" placeholder="50" />
+        </div>
+        <div class="field">
+          <label for="widthInput">Width (optional, px)</label>
+          <input id="widthInput" type="number" min="1" step="1" placeholder="Auto" />
+        </div>
+        <div class="field">
+          <label for="heightInput">Height (optional, px)</label>
+          <input id="heightInput" type="number" min="1" step="1" placeholder="Auto" />
+        </div>
+      </section>
+
+      <section class="actions">
+        <button id="compressBtn" class="primary-btn" type="button">Compress Image</button>
+        <a id="downloadBtn" class="btn-link" download="compressed-image-50kb.jpg">Download Compressed Image</a>
+      </section>
+
+      <div class="ad-space">Ad Space Middle</div>
+
+      <p id="status" class="status"></p>
+
+      <section class="comparison">
+        <article class="panel">
+          <h3>Before Compression</h3>
+          <p id="beforeInfo">No image selected</p>
+          <div class="preview" id="beforePreview">Original image preview</div>
+        </article>
+        <article class="panel">
+          <h3>After Compression</h3>
+          <p id="afterInfo">After compression, file size and preview appear here</p>
+          <div class="preview" id="afterPreview">Compressed image preview</div>
+        </article>
+      </section>
+
+      <section class="content">
+        <h2>Why 50KB Image Compression Is Needed</h2>
+        <p>Many government portals in India ask applicants to upload a recent photo with a maximum file size near 50KB. If your image is larger, form submission can fail. This page is built for that exact need. Upload your image, keep the target at 50KB, and click Compress Image. You can check both file size and visual quality before downloading the final image.</p>
+        <p>The tool is useful for SSC form image size requirements and other exams where candidates need quick edits without installing software. You can also set custom width and height when the portal demands exact dimensions. Since compression runs fully in your browser using Canvas API, it is fast, lightweight, and works on both mobile and desktop with no backend upload step.</p>
+      </section>
+
+      <div class="info-section">
+        <h2>Common Photo &amp; Signature Requirements (India)</h2>
+
+        <ul>
+          <li><strong>SSC / Govt Exams:</strong> Photo: 20KB - 50KB, Signature: 10KB - 20KB (may vary by notification)</li>
+          <li><strong>UPSC Forms:</strong> Photo: usually 20KB - 300KB, Signature: 20KB - 50KB</li>
+          <li><strong>Banking (IBPS):</strong> Photo: 20KB - 50KB, Signature: 10KB - 20KB</li>
+          <li><strong>Railway (RRB):</strong> Photo: 20KB - 50KB, Signature: 10KB - 40KB</li>
+          <li><strong>PAN Card:</strong> Photo: 10KB - 200KB</li>
+          <li><strong>Passport Size Photo India:</strong> 35mm x 45mm, typically 20KB - 100KB</li>
+          <li><strong>Aadhaar Update:</strong> Photo: up to 100KB</li>
+        </ul>
+
+        <p class="note"><strong>Note:</strong> Requirements may change depending on the form. Always check the official notification. Common search terms include SSC photo size, signature size KB, and passport photo size India.</p>
+
+        <div class="quick-actions">
+          <button type="button" data-size="50">SSC (50KB)</button>
+          <button type="button" data-size="20">Signature (20KB)</button>
+          <button type="button" data-size="100">PAN (100KB)</button>
+        </div>
+      </div>
+
+      <footer>
+        Use only images you have permission to modify. This tool is for educational and personal use.
+      </footer>
+    </main>
+
+    <div class="ad-space" style="margin-top: 16px;">Ad Space Bottom</div>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
